@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+</head>
+<body>
+    <h1>details</h1>
+
+
+
+
+    <script>
+        $(document).ready(function(){
+            let url_string = window.location.href
+            var url = new URL(url_string);
+            var id = url.searchParams.get("id");
+            console.log("id", id)
+            let end_point =  "https://data.cityofnewyork.us/resource/h9gi-nx95.json?collision_id"+id+""
+            
+
+        })
+    </script>
+</body>
+</html>

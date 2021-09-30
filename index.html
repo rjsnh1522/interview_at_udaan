@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css"  crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <script src="assets/js/main.js"></script>
+    <title>Document</title>
+</head>
+<body>
+<div class="container">
+    <div class="table-view">
+        <div class="row">
+            <div class="col-6">
+                <div>
+                    <label class="switch">
+                      <input type="checkbox" class="viewChange">           
+                      <span class="slider"></span>
+                      <p class="off">No</p>
+                      <p class="on">Si</p>
+                    </label>
+                  </div>
+            </div>
+            <div class="col-6">
+                <select class="custom-select perPage" id="perPage">
+                    <option >Open this select menu</option>
+                    <option value="10" selected>10</option>
+                    <option value="25">25</option>
+                    <option value="50">50</option>
+                    <option value="100">100</option>
+                </select>
+            </div>
+        </div>
+
+          <div class="tableDiv">
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">on_street_name</th>
+                    <th scope="col">Last</th>
+                    <th scope="col">Handle</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                  </tr>
+                </tbody>
+              </table>
+          </div>
+          <div class="row">
+            <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                  <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                  <li class="page-item"><a class="page-link" href="#" data-val="1">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#" data-val="2">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#" data-val="3">3</a></li>
+                  <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                </ul>
+              </nav>
+          </div>
+    </div>
+    <div class="card-view">
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="..." alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary btnClick" data-id="4407480">Go somewhere</a>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
